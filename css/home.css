@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tiro+Bangla:ital@0;1&display=swap');
+
+/*
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Tiro Bangla', serif;
+*/
+
+body {
+  /* position: relative; */
+  overflow-y: hidden;
+}
+
+#nav {
+  position: absolute;
+  top: 0; right: 0;
+}
+
+
+/* Title */
+#section1 {margin: 90px 0 130px;}
+#section1 .title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px; color: #f00;
+  text-align: center;
+}
+
+
+
+/* Site button */
+#section2 .btnBox {
+  display: flex;
+  align-items: center; justify-content: center;
+}
+#section2 .btnBox > div {
+  z-index: 999999;
+  display: flex;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#section2 .toNike {
+  margin-right: 150px;
+}
+#section2 .toNike img {padding-top: 20px;}
+#section2 .toJordan img {padding-bottom: 10px;}
+
+
+
+/* footer */
+#footer {
+  margin: 160px 0 100px;
+  font-family: 'Tiro Bangla', serif;
+}
+#footer .rights {text-align: center;}
